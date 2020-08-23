@@ -1,6 +1,7 @@
 public class HelloWorld {
 
     public int x = 7;
+    public String s = "123";
     public int funcForTest(int param) {
         return param + 1;
     }
