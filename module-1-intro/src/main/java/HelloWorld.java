@@ -11,5 +11,6 @@ public class HelloWorld {
         System.out.println("Hello world!");
         System.out.println("Hello CI )))");
         System.out.println("1 + 2");
+        System.out.println("1");
     }
 }
