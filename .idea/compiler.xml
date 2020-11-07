@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="module2-OOP" />
         <module name="module-1-intro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="module-1-intro" target="11" />
-      <module name="samsung_it_school_2020_2021_239" target="11" />
+      <module name="module-1-intro" target="14" />
+      <module name="module2-OOP" target="14" />
+      <module name="samsung_it_school_2020_2021_239" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
