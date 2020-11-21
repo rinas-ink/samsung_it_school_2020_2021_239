@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane onKeyReleased="#inputKey"
+        prefHeight="430.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorController">
+
+    <TextField fx:id="text" alignment="CENTER_RIGHT" editable="false" layoutX="15.0" layoutY="14.0" prefHeight="69.0" prefWidth="370.0">
+        <font>
+          <Font size="24.0" />
+        </font>
+    </TextField>
+
+   <Button layoutX="15.0" layoutY="163.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="1">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+
+   <Button layoutX="110.0" layoutY="163.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="2">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button layoutX="207.0" layoutY="163.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="3">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button layoutX="15.0" layoutY="229.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="4">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button layoutX="110.0" layoutY="229.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="5">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button layoutX="207.0" layoutY="229.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="6">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button layoutX="15.0" layoutY="294.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="7">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button layoutX="110.0" layoutY="294.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="8">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button layoutX="207.0" layoutY="294.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text="9">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button layoutX="16.0" layoutY="352.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="179.0" text="0">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button onAction="#calculate"
+            layoutX="301.0" layoutY="163.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="84.0" text="+">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button onAction="#calculate" layoutX="301.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="84.0" text="-">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button onAction="#calculate" layoutX="110.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="84.0" text="/">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+    <Button onAction="#calculate" layoutX="207.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="84.0" text="*">
+        <font>
+            <Font size="18.0" />
+        </font></Button>
+    <Button layoutX="207.0" layoutY="352.0" mnemonicParsing="false" onAction="#inputDigit" prefHeight="50.0" prefWidth="84.0" text=",">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+   <Button  onAction="#enter"
+           layoutX="301.0" layoutY="294.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="84.0" text="enter">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+   <Button onAction="#removeLastDigit" layoutX="16.0" layoutY="102.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="84.0" text="C">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+</AnchorPane>

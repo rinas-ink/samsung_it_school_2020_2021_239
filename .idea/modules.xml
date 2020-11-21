@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/module-1-intro/module-1-intro.iml" filepath="$PROJECT_DIR$/module-1-intro/module-1-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/module2-OOP/module2-OOP.iml" filepath="$PROJECT_DIR$/module2-OOP/module2-OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/samsung_it_school_2020_2021_239.iml" filepath="$PROJECT_DIR$/.idea/samsung_it_school_2020_2021_239.iml" />
