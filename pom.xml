@@ -24,6 +24,7 @@
         <module>module-1-intro</module>
         <module>module2-OOP</module>
         <module>calculator</module>
+        <module>module-3</module>
     </modules>
 
     <dependencies>
